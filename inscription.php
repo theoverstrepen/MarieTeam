@@ -61,7 +61,7 @@
 		 else {
         	//toutes les vérifications sont faites, on passe à l'enregistrement dans la base de données:
         	if(!mysqli_query($mysqli,"INSERT INTO membres SET 
-			nom='".$_POST['user_lastname']."',
+			no	m='".$_POST['user_lastname']."',
 			prenom='".$_POST['user_name']."',
 			pass='".$_POST['password']."',
 			email='".$_POST['user_mail']."',
